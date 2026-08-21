@@ -1,0 +1,13 @@
+name: IDC409
+channels:
+  - defaults
+dependencies:
+  - python=3.14
+  - matplotlib
+  - scikit-learn
+  - notebook
+  - ipykernel
+  - numpy
+  - jupyter
+  - pandas
+prefix: /home/omaaaaaaansh/miniconda3/envs/IDC409
