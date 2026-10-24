@@ -1,0 +1,10 @@
+.vscode/
+.conda/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.venv/
+data/aqi.csv
+data/city_hour.csv
+data/station_hour.csv
