@@ -1,4 +1,0 @@
-model,other cities: trained WITHOUT Ahmedabad (R2),other cities: trained WITH Ahmedabad (R2),"Ahmedabad itself (R2, model trained with it)",Ahmedabad MAE
-Linear Regression,0.855,0.855,0.731,83.359
-Random Forest,0.906,0.905,0.746,85.589
-Gradient Boosting (HistGB),0.908,0.908,0.724,91.474

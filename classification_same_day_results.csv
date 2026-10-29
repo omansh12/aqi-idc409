@@ -1,7 +1,0 @@
-,CV macro-F1 (train),train accuracy,test accuracy,test balanced acc.,test precision (macro),test recall (macro),test F1 (macro),test F1 (weighted),within ±1 class
-Random Forest,0.676,0.841,0.785,0.769,0.747,0.769,0.756,0.787,0.997
-Neural Net (MLP),0.636,0.778,0.785,0.73,0.767,0.73,0.746,0.783,0.997
-Gradient Boosting (HistGB),0.65,0.786,0.761,0.782,0.708,0.782,0.733,0.765,0.996
-Decision Tree,0.599,0.765,0.726,0.759,0.673,0.759,0.703,0.732,0.991
-Logistic Regression,0.557,0.641,0.602,0.708,0.602,0.708,0.608,0.621,0.973
-Majority class (dummy),0.087,0.378,0.353,0.167,0.059,0.167,0.087,0.184,0.853
