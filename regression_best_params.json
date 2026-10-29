@@ -1,0 +1,28 @@
+{
+  "best_by_cv": "Neural Net (MLP)",
+  "best_params": {
+    "Mean (dummy)": {},
+    "Linear Regression": {},
+    "Decision Tree": {
+      "min_samples_leaf": 20,
+      "max_depth": 14
+    },
+    "Random Forest": {
+      "min_samples_leaf": 5,
+      "max_features": 0.8,
+      "max_depth": 12
+    },
+    "Gradient Boosting (HistGB)": {
+      "min_samples_leaf": 20,
+      "max_leaf_nodes": 31,
+      "learning_rate": 0.05,
+      "l2_regularization": 1.0
+    },
+    "Neural Net (MLP)": {}
+  },
+  "cpcb_formula_reference": {
+    "MAE": 18.39504534073732,
+    "RMSE": 27.932348989834157,
+    "R2": 0.8889432405885443
+  }
+}

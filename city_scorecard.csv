@@ -1,0 +1,9 @@
+city,mean_aqi,pct_poor_or_worse,main_driver,same-day MAE (RF),same-day class accuracy,next-day MAE (model),next-day MAE (persistence),next-day skill,Diwali 2019 %,lockdown vs 2019 %
+Delhi,216.3,44.7,PM10,19.69,0.77,27.71,35.51,0.22,59.1,-44.4
+Chandigarh,96.5,7.7,PM10,13.45,0.83,14.52,19.4,0.25,124.3,
+Mumbai,109.6,8.2,PM10,11.36,0.67,11.08,13.35,0.17,-2.6,-27.0
+Amritsar,112.5,10.2,PM10,16.27,0.75,20.57,24.89,0.17,139.8,-39.9
+Gurugram,186.0,31.9,PM2.5,22.38,0.74,26.68,34.66,0.23,46.0,-41.9
+Lucknow,185.1,38.8,PM2.5,20.42,0.79,24.83,33.3,0.25,10.9,-45.3
+Jaipur,114.0,3.0,PM10,12.83,0.85,14.24,18.54,0.23,71.7,-32.9
+Bengaluru,81.1,0.0,PM10,7.62,0.84,7.74,8.94,0.13,11.7,-39.3

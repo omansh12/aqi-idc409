@@ -1,0 +1,23 @@
+city,model,approach,n_train,n_test,MAE,R2
+Delhi,Linear Regression,pooled (all cities),19935,152,15.37,0.91
+Delhi,Linear Regression,local (this city only),1847,152,32.22,0.73
+Delhi,Gradient Boosting (HistGB),pooled (all cities),19935,152,14.1,0.92
+Delhi,Gradient Boosting (HistGB),local (this city only),1847,152,24.0,0.82
+Chandigarh,Linear Regression,pooled (all cities),19935,151,13.69,0.56
+Chandigarh,Linear Regression,local (this city only),148,151,15.13,0.35
+Chandigarh,Linear Regression,"pooled, zero-shot (without Chandigarh)",19787,151,13.78,0.55
+Chandigarh,Gradient Boosting (HistGB),pooled (all cities),19935,151,9.12,0.78
+Chandigarh,Gradient Boosting (HistGB),local (this city only),148,151,14.49,0.39
+Chandigarh,Gradient Boosting (HistGB),"pooled, zero-shot (without Chandigarh)",19787,151,8.95,0.78
+Mumbai,Linear Regression,pooled (all cities),19935,152,8.42,0.93
+Mumbai,Linear Regression,local (this city only),623,152,8.72,0.93
+Mumbai,Gradient Boosting (HistGB),pooled (all cities),19935,152,8.48,0.94
+Mumbai,Gradient Boosting (HistGB),local (this city only),623,152,8.28,0.93
+Amritsar,Linear Regression,pooled (all cities),19935,143,21.1,0.53
+Amritsar,Linear Regression,local (this city only),983,143,16.84,0.71
+Amritsar,Gradient Boosting (HistGB),pooled (all cities),19935,143,14.22,0.8
+Amritsar,Gradient Boosting (HistGB),local (this city only),983,143,18.05,0.56
+Gurugram,Linear Regression,pooled (all cities),19935,152,16.26,0.81
+Gurugram,Linear Regression,local (this city only),1301,152,25.53,0.61
+Gurugram,Gradient Boosting (HistGB),pooled (all cities),19935,152,14.15,0.82
+Gurugram,Gradient Boosting (HistGB),local (this city only),1301,152,15.9,0.79
