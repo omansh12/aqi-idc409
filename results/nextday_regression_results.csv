@@ -1,0 +1,8 @@
+,CV MAE (train),test MAE,test RMSE,test R2,skill vs persistence (1 − MAE/MAE_p),MAE pre-lockdown,MAE lockdown
+Random Forest,24.447,16.955,27.948,0.889,0.202,18.548,11.076
+Gradient Boosting (HistGB),25.468,17.326,27.791,0.89,0.185,18.707,12.228
+Linear Regression,25.501,18.905,29.876,0.873,0.111,20.696,12.297
+Decision Tree,27.032,19.297,30.217,0.87,0.092,20.831,13.634
+Persistence (tomorrow = today),,21.255,37.225,0.802,0.0,23.838,11.725
+Neural Net (MLP),28.526,21.724,32.35,0.851,-0.022,23.117,16.579
+Mean (dummy),95.555,82.964,95.141,-0.291,-2.903,80.694,91.341

@@ -1,0 +1,23 @@
+{
+  "best_by_cv": "Random Forest",
+  "best_params": {
+    "Majority class (dummy)": {},
+    "Logistic Regression": {},
+    "Decision Tree": {
+      "min_samples_leaf": 10,
+      "max_depth": 10
+    },
+    "Random Forest": {
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "max_depth": 12
+    },
+    "Gradient Boosting (HistGB)": {
+      "min_samples_leaf": 20,
+      "max_leaf_nodes": 15,
+      "learning_rate": 0.05,
+      "l2_regularization": 0.0
+    },
+    "Neural Net (MLP)": {}
+  }
+}

@@ -1,0 +1,11 @@
+log_id,ts,step,table_name,rows_affected,description
+1,2026-10-29 05:23:35,trim_city_names,raw_city_day,0,UPDATE - strip stray whitespace from city names
+2,2026-10-29 05:23:35,unify_city_aliases,raw_city_day,0,UPDATE - map historical / alternative spellings to the canonical city name
+3,2026-10-29 05:23:35,delete_duplicate_rows,raw_city_day,0,"DELETE - keep only the first row for every (city, date) pair"
+4,2026-10-29 05:23:35,delete_empty_rows,raw_city_day,1374,DELETE - rows where all 12 pollutants AND the AQI are missing carry no information
+5,2026-10-29 05:23:35,load_dim_city,dim_city,26,INSERT - one dimension row per distinct city
+6,2026-10-29 05:23:36,load_fact_aqi,fact_aqi,28157,INSERT ... SELECT - move cleaned raw rows into the fact table with the city surrogate key
+7,2026-10-29 05:23:36,zeros_to_null,fact_aqi,5913,"UPDATE - exact zeros in CO, NOx, Benzene, Toluene, Xylene are placeholders for ""no reading"" (see EDA), set to NULL"
+8,2026-10-29 05:23:36,fix_aqi_bucket,fact_aqi,0,UPDATE - make aqi_bucket consistent with the CPCB bands of the numeric AQI
+9,2026-10-29 05:23:36,flag_outliers,fact_aqi,547,"UPDATE - flag readings above the 0-500 AQI scale or at sensor ceilings (kept, not deleted)"
+10,2026-10-29 05:23:36,flag_suspect_cities,fact_aqi,1559,UPDATE - flag cities where NO equals CO on >30% of days (copy-paste data-entry error signature)

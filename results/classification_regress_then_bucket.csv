@@ -1,0 +1,7 @@
+approach,accuracy,balanced_accuracy,f1_macro,within_1_class
+regress (Linear Regression) → bucket,0.699,0.582,0.614,0.996
+regress (Random Forest) → bucket,0.779,0.694,0.718,0.997
+regress (Gradient Boosting (HistGB)) → bucket,0.768,0.667,0.686,0.998
+regress (Neural Net (MLP)) → bucket,0.774,0.71,0.728,0.998
+direct classifier (Random Forest),0.784,0.755,0.752,0.997
+direct classifier (Logistic Regression),0.602,0.708,0.608,0.973

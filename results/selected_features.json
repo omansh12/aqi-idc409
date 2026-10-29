@@ -1,0 +1,44 @@
+{
+  "name": "IMPORTANCE top-5 (CV)",
+  "numeric": [
+    "pm25",
+    "pm10",
+    "co",
+    "nox",
+    "o3"
+  ],
+  "categorical": [],
+  "features": [
+    "pm25",
+    "pm10",
+    "co",
+    "nox",
+    "o3"
+  ],
+  "dropped": [
+    "no_",
+    "no2",
+    "nh3",
+    "so2",
+    "benzene",
+    "toluene",
+    "month_sin",
+    "month_cos",
+    "dayofweek",
+    "is_weekend",
+    "is_winter",
+    "is_diwali_window",
+    "is_holi_window",
+    "is_dussehra_window",
+    "is_stubble_season",
+    "is_lockdown",
+    "city",
+    "season"
+  ],
+  "cv_R2_full": 0.8572012747760767,
+  "cv_R2_selected": 0.8606591294955336,
+  "test_R2_full": 0.9095719130427987,
+  "test_R2_selected": 0.9083371855206029,
+  "test_MAE_full": 16.118356993080212,
+  "test_MAE_selected": 16.11192814086804
+}
